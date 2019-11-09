@@ -1,0 +1,45 @@
+{
+  "name": "teamwork",
+  "version": "1.0.0",
+  "description": "A social Network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --exec babel-node backend/server.js",
+    "start:dev": "nodemon --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaithNickodJones/TeamWork.git"
+  },
+  "keywords": [
+    "api",
+    "teamwork"
+  ],
+  "author": "Faith Mwende Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaithNickodJones/TeamWork/issues"
+  },
+  "homepage": "https://github.com/FaithNickodJones/TeamWork#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1"
+  }
+}
